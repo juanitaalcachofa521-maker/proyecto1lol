@@ -1,0 +1,34 @@
+body {
+    background-color: chartreuse;
+}
+.padre{
+    background-color: darkgreen;
+    padding: 10px;
+}
+.titulo,.contenido,.pie{
+    background-color: darkslategray;
+    margin: 5px;
+    padding: 5px;
+}
+.foto{
+    background-color: darkolivegreen;
+    width: 45%;
+    height: 60%;
+    padding: 5px;
+}
+    img{
+    width: 40%;
+    height: 50%;
+}
+.texto{
+    background-color: rgba(100, 193, 0, 0.629);
+    width: 45%;
+    height: 60%;
+    padding: 5px;
+}
+.contenido{
+    display: flex;
+}
+.titulo,.pie{
+    text-align: center;
+}
